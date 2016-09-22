@@ -21427,9 +21427,18 @@
 
 		render: function () {
 			return React.createElement(
-				'h1',
+				'div',
 				null,
-				'React is here!'
+				React.createElement(
+					'h1',
+					null,
+					'React is here!'
+				),
+				React.createElement(
+					'p',
+					null,
+					'to stay.'
+				)
 			);
 		}
 	});
